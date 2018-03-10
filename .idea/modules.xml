@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ymm-manager/ymm-manager-web/target/tomcat/work/Tomcat/localhost/localhost.iml" filepath="$PROJECT_DIR$/ymm-manager/ymm-manager-web/target/tomcat/work/Tomcat/localhost/localhost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymm-manager/ymm-manager-web/src/main/main.iml" filepath="$PROJECT_DIR$/ymm-manager/ymm-manager-web/src/main/main.iml" />
+    </modules>
+  </component>
+</project>

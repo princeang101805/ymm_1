@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ymm.dao.IGoodsMapper">
+    <!--查询所有商品-->
+    <select id="listGoods" resultType="Goods" parameterType="Goods">
+        SELECT * FROM goods
+    </select>
+    <delete id="removeById" parameterType="Goods">
+        DELETE FROM goods WHERE good_id = #{good_id}
+    </delete>
+    <update id="updateById" keyProperty="good_id" parameterType="Goods">
+        UPDATE goods SET goods_name = #{goods_name},goods_number = #{goods_number},market_price = #{market_price},
+        shop_price = #{shop_price},promote_price = #{promote_price},goods_brief = #{goods_brief},goods_desc = #{goods_desc},
+        is_new = #{is_new},is_hot = #{is_hot},is_show = #{is_show} WHERE good_id = #{good_id}
+    </update>
+</mapper>

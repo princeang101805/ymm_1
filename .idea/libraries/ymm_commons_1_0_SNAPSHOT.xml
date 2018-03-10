@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ymm-commons-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ymm-commons/target/ymm-commons-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
